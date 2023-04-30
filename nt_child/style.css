@@ -1,0 +1,29 @@
+
+ul{
+    list-style: none;
+    padding: 5px;
+    font-size: 40px;
+}
+
+/* Select the second list item */
+ul > li:nth-child(2){
+    color: red;
+}
+
+/* also select the second list item. */
+ul li:nth-child(2){
+    font-weight: 800;
+}
+
+
+/* select the odd items */
+ul li:nth-child(odd){
+    background-color: black;
+}
+
+/* Select the even items */
+ul li:nth-child(even){
+    background-color: blue;
+}
+
+
