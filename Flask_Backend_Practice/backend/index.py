@@ -4,7 +4,9 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 import datetime
 import os
+
 # Load environment variables from .env fileload_dotenv()
+load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
