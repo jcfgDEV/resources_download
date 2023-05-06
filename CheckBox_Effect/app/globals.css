@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.selected {
+    border: 2px solid rgb(28, 196, 78);
+}
+
+.icon{
+    color: rgb(47, 179, 42);
+}
+
+.hidden {
+    display: none;
+  }
+
+
