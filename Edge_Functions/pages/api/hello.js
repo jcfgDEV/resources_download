@@ -8,7 +8,7 @@ export const config = {
 }
 
 export default async function GET() {
-  const res = await fetch('https://jsonplaceholder.typicode.com/posts', {
+  const res = await fetch('https://jsonplaceholder.typicode.com/users', {
     headers: {
       'Content-Type': 'application/json',
     },
